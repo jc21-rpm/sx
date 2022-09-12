@@ -4,7 +4,7 @@
 
 Name:           sx
 Version:        0.0.1
-Release:        1%{?dist}
+Release:        1
 Summary:        Fast, modern, easy-to-use network scanner
 Group:          Applications/System
 License:        MIT
