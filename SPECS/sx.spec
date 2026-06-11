@@ -3,7 +3,7 @@
 %global gh_user v-byte-cpu
 
 Name:           sx
-Version:        0.5.0
+Version:        0.6.0
 Release:        1%{?dist}
 Summary:        Fast, modern, easy-to-use network scanner
 Group:          Applications/System
@@ -31,6 +31,9 @@ install -Dm0755 %{_builddir}/bin/%{name} %{buildroot}%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
+* Fri Jun 12 2026 Jamie Curnow <jc@jc21.com> 0.6.0-1
+- v0.6.0
+
 * Tue Jun 25 2024 Jamie Curnow <jc@jc21.com> 0.5.0-1
 - v0.5.0
 
